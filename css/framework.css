@@ -68,7 +68,16 @@
 .sp-25 {
   letter-spacing: 2.5px;
 }
+.uppercase {
+  text-transform: uppercase; }
+.font_first {
+  font-family: 'Patua One', cursive; }
 
+.font_second {
+  font-family: 'Gothic A1', sans-serif;; }
+
+.font_third {
+  font-family: 'Gothic A1', sans-serif;; }
 /* Opacity */
 .op-0 {
   opacity: 0;
@@ -11676,6 +11685,15 @@ input[type=radio] + label:before {
 }
 
 /* Font sizes */
+.text_center {
+  text-align: center; }
+
+.text_left {
+  text-align: left; }
+
+.text_right {
+  text-align: right; }
+
 .f-12 {
   font-size: 12px;
   line-height: 22px;
@@ -12374,6 +12392,30 @@ input[type=radio] + label:before {
 .color-dribbble.link:hover {
   color: #d81862;
 }
+.color-black {
+  color: #000000; }
+  .color-black.link {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+    .color-black.link:hover, .color-black.link:focus {
+      color: #272727; }
+
+.color-yellow {
+  color: #FFBC00; }
+
+.color-purple {
+  color: #a29bfe; }
+
+.color-green {
+  color: #0097A7; }
+  .color-green.link {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+    .color-green.link:hover, .color-green.link:focus {
+      color: #0cb658; }
+
 
 /* background-colors */
 .bg-light {
@@ -12394,6 +12436,14 @@ input[type=radio] + label:before {
 .bg-gray {
   background-color: #EBEAED;
 }
+.bg-yellow {
+  background-color: #FFBC00; 
+}
+.bg-green {
+  background: #0097A7; 
+}
+.bg-purple {
+  background: #a29bfe; }
 .bg-action-1 {
   background-color: #0097a7;
 }
